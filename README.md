@@ -1,4 +1,4 @@
-test
+ï»¿test
 ====
 
 test repository, you can practice push/pull ops here
@@ -12,4 +12,6 @@ https://help.github.com/
 You should install GitHub for Windows first.
 
 It's recommend to use git shell rather than git GUI.
-Learn more about Git, you can refer to <GitÈ¨ÍşÖ¸ÄÏ>.
+Learn more about Git, you can refer to "Gitæƒå¨æŒ‡å—".
+
+Here is some changes made on Local Machine.
