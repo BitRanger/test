@@ -12,4 +12,7 @@ https://help.github.com/
 You should install GitHub for Windows first.
 
 It's recommend to use git shell rather than git GUI.
-Learn more about Git, you can refer to <GitÈ¨ÍşÖ¸ÄÏ>.
+Learn more about Git, you can refer to "Gitæƒå¨æŒ‡å—".
+
+Now I am going to test what if conflict happens.
+This is some changes made on-line.
