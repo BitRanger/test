@@ -3,6 +3,7 @@ package com.bitranger.example.dao.impl;
 import java.util.List;
 
 import org.springframework.orm.hibernate3.support.HibernateDaoSupport;
+import org.springframework.stereotype.Repository;
 
 import com.bitranger.example.dao.IDAOBook;
 import com.bitranger.example.model.Book;
@@ -16,6 +17,7 @@ import com.bitranger.example.model.Book;
  * @author BowenCai
  *
  */
+@Repository
 public class DAOBook extends HibernateDaoSupport implements IDAOBook {
 
 	@Override
@@ -26,7 +28,7 @@ public class DAOBook extends HibernateDaoSupport implements IDAOBook {
 	@SuppressWarnings("unchecked")
 	@Override
 	public List<Book> getAll() {
-		return getHibernateTemplate().find("from ds_book");
+		return getHibernateTemplate().find("from Book");
 	}
 
 	@Override

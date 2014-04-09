@@ -10,6 +10,11 @@ import com.bitranger.example.service.IBookService;
 
 public class BookService implements IBookService{
 
+
+	@Override
+	public List<Book> getAll() {
+		return bookDao.getAll();
+	}
 	/**
 	 * this property will be injected(set) by the spring IoC container automatically
 	 */

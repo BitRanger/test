@@ -12,14 +12,13 @@ import com.bitranger.example.model.Book;
  *
  */
 public interface IBookService {
-	
+
+	public List<Book> getAll();
 	/**
-	 * 函数说明：获得一条的信息 参数说明： ID 返回值：对象
 	 */
 	public Book getBook(int bookId);
 
 	/**
-	 * 函数说明：修改信息 参数说明： 对象 返回值：
 	 */
 	public void updateBook(Book book);
 	
