@@ -29,31 +29,38 @@ https://help.github.com/
 运行git push --all 就把你本地的所有提交全部同步到服务器，即Github上了，这样大家运行pull时，就能把你push的代码拉到自己的机器上了。
 
 4.常见错误
-有时大家push时会报错“（）&%￥##%^$@pull)(*&”，注意其中有个pull
+有时大家push时会报错`“（）&%￥##%^$@pull)(*&”`，注意其中有个pull
 那是因为服务器上有新的东东了，而你还没pull到自己这，所以此时要先pull，把你没有的取过来，再push自己新加的。
 如果pull来的东西与自己有冲突怎么办？请看下一篇
 
 5.冲突了怎么办：
 例如
-第一天，大包在 com.bitranger.example.practice.bjt 里写了一个类
-class ThisIsMyClassDoNotTouchIT {\
-	String motto = "大包是神";\
-}\
+第一天，大包在 `com.bitranger.example.practice.bjt` 里写了一个类  
+```
+class ThisIsMyClassDoNotTouchIt {  
+	String motto = "大包是神";  
+}
+```
 然后他push到服务器上了。
 
 第二天，川神运行pull，把大包的代码同步到自己的工程里了，并将大包的类改成了
-class ThisIsMyClassDoNotTouchIT {\
-	String motto = "大包是屎";\
-}\
+```
+class ThisIsMyClassDoNotTouchIt {     
+	String motto = "大包是屎";     
+}
+```
 然后川神首先把这段代码push到github上。
 
-第三天，大包又把自己的类改成了这样\
-class ThisIsMyClassDoNotTouchIT {\
-	String motto = "大包是万物的神"\
-}\
+第三天，大包又把自己的类改成了这样  
+```
+class ThisIsMyClassDoNotTouchIt {     
+	String motto = "大包是万物的神"     
+}
+```
+
 然后他运行push，就出错了，因为他的代码和服务器上的不同，这时就需要两个人自己协调一下了。
 
-所以大家写代码时各自在各自的一亩三分地里写，如果要改动别人负责的包，要先商量好。
+所以大家写代码时各自在各自的一亩三分地里写，如果要改动别人负责的包，要先商量好。  
 
 一般的情况是，一个repository由一个人控制（例如linux由Linus Torvalds控制），其他人动不了，
 的开发者有改动，要向那个负责的人发pull request，再由负责人把别人的改动pull过来。
