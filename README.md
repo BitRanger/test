@@ -36,26 +36,29 @@ https://help.github.com/
 5.冲突了怎么办：
 例如
 第一天，大包在 com.bitranger.example.practice.bjt 里写了一个类
-class ThisIsMyClassDoNotTouchIT {
-	String motto = "大包是神";
-}
+class ThisIsMyClassDoNotTouchIT {\
+	String motto = "大包是神";\
+}\
 然后他push到服务器上了。
 
 第二天，川神运行pull，把大包的代码同步到自己的工程里了，并将大包的类改成了
-class ThisIsMyClassDoNotTouchIT {
-	String motto = "大包是屎";
-}
+class ThisIsMyClassDoNotTouchIT {\
+	String motto = "大包是屎";\
+}\
 然后川神首先把这段代码push到github上。
 
-第三天，大包又把自己的类改成了这样
-class ThisIsMyClassDoNotTouchIT {
-	String motto = "大包是万物的神";
-}
+第三天，大包又把自己的类改成了这样\
+class ThisIsMyClassDoNotTouchIT {\
+	String motto = "大包是万物的神"\
+}\
 然后他运行push，就出错了，因为他的代码和服务器上的不同，这时就需要两个人自己协调一下了。
-所以大家写代码时各自在各自的一亩三分地里写，如果要改动别人负责的包，要先商量好，
-一般一个repository由一个人控制，其他人动不了，
-如果有自己的改动，要向那个负责的人发pull request，再由负责人把改动pull过来。
-但是这样太麻烦了，所以我把这个repository设成writable的，组内的人都能写。
+
+所以大家写代码时各自在各自的一亩三分地里写，如果要改动别人负责的包，要先商量好。
+
+一般的情况是，一个repository由一个人控制（例如linux由Linus Torvalds控制），其他人动不了，
+的开发者有改动，要向那个负责的人发pull request，再由负责人把别人的改动pull过来。
+
+但是这样太麻烦了，所以我把这个repository设成writable的，组内的人都能写，不用向我发pull request
 
 
 
