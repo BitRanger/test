@@ -1,6 +1,9 @@
 package com.bitranger.example.practice.gj;
 
+import javax.sound.midi.SysexMessage;
+
 public class Sample {
 
-	String haha = "I am the BOSS!!";
+	String boss = "I am the BOSS!!";
+	
 }
