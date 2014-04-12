@@ -1,4 +1,5 @@
 <%@page import="com.bitranger.example.model.Book"%>
+<%@page import="java.util.Map" %>
 <%@page import="java.util.List"%>
 <%@ page language="java" import="java.util.*" pageEncoding="UTF-8"%>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>

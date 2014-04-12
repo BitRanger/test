@@ -2,6 +2,7 @@ package com.bitranger.example.dao.impl;
 
 import java.util.List;
 
+import org.hibernate.SessionFactory;
 import org.springframework.orm.hibernate3.support.HibernateDaoSupport;
 import org.springframework.stereotype.Repository;
 
