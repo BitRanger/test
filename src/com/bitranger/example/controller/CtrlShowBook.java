@@ -14,12 +14,13 @@ import com.bitranger.example.service.IBookService;
 @Controller
 public class CtrlShowBook {
 	
-	@RequestMapping(value="/", method=RequestMethod.GET)
+	@RequestMapping(value="/a/", method=RequestMethod.GET)
 	public ModelAndView index() {
 		// map jsp by ModelAndView name: 'index' -> 'index.jsp'
 	 	ModelAndView mv = new ModelAndView("index");
 	 	mv.addObject("msg", "Mapping by model name, hahahaha!");
 	 	List<Book> books = bookService.getAll();
+	 	System.out.println(books.size());
 	 	mv.addObject("book-list", books);
 		return mv;
 	}
