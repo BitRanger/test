@@ -134,37 +134,4 @@
 			please enable Java Compiler warning in your Java IDE(MyEclipse).
 	
 	3.6 	write your name in the comment if you have created/modified a class
-						<?xml version="1.0" encoding="UTF-8"?>
-<!-- akismet key 1ff270f454e1 -->
-<cronentries>
-  <cron>
-    <url>/blog.html</url>
-    <description>wake up my web site</description>
-    <schedule>every 5 minutes</schedule>
-  </cron>
-  <cron>
-    <url>/blog/archive</url>
-    <description>wake up my web site</description>
-    <schedule>every 10 minutes</schedule>
-  </cron>  
-  <cron>
-    <url>/blog/page/2</url>
-    <description>wake up my web site</description>
-    <schedule>every 10 minutes</schedule>
-  </cron>
-  <cron>
-    <url>/work.html</url>
-    <description>Mail out a weekly report</description>
-    <schedule>every 10 minutes</schedule>
-  </cron>
-  <cron>
-    <url>/about.html</url>
-    <description>wake up my web site</description>
-    <schedule>every 10 minutes</schedule>
-  </cron>
-  <cron>
-    <url>/cron/clean-statistic/1-hour</url>
-    <description>clean request statistician data</description>
-    <schedule>every 6 hours</schedule>
-  </cron>
-</cronentries>
+			
