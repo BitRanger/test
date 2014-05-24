@@ -22,6 +22,7 @@ public class Test_DAOBook {
 	/**
 	 * WARNING: Autowired property must have the 
 	 * exactly the SAME name as its bean ID specified in applicationContext.xml
+	 * Test it
 	 */
 	@Autowired
 	DAOBook bookDao;
